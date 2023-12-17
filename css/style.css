@@ -1,0 +1,25 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+@import url("components/notification.css");
+@import url("components/tabs.css");
+@import url("components/activity.css");
+@import url("components/container.css");
+@import url("components/fonticon.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: gainsboro;
+}
+.text-center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}

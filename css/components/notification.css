@@ -1,0 +1,58 @@
+.notifications {
+  width: 900px;
+  margin-top: 20px;
+}
+.notification {
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 5px 16px;
+  background-color: beige;
+  border-bottom: 1px solid maroon;
+  margin-bottom: 5px;
+}
+.notification-content {
+  flex-grow: 1;
+  padding: 0px 15px;
+}
+.notification-content a {
+  text-decoration: none;
+  color: #268BD2;
+}
+.notification-content p {
+  line-height: 1.8;
+  margin: 0 30px 0px;
+}
+.current-date {
+  font-weight: bold;
+  color: grey;
+}
+/* Hover Seen Notification */
+.notification > .notification-action {
+  display: flex;
+  opacity: 0;
+  transition: ease .3s;
+}
+.notification:hover > .notification-action {
+  opacity: 1;
+}
+.notification > .notification-action {
+  margin-left: 15px;
+  font-size: 15px;
+}
+.notification-action a {
+  color: grey;
+}
+.notification .notification-action a:hover {
+  color: black
+}
+/* Make check icon green when hover */
+.notification .notification-action a:hover .fa-check {
+  color: green;
+}
+.notification .notification-action a:hover .fa-user-plus {
+  color: maroon;
+}
+.notification .notification-action a:hover .fa-basketball {
+  color: orangered;
+}

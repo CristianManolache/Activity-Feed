@@ -1,0 +1,11 @@
+.activity {
+  margin-top: 20px;
+}
+.activity a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+.activity a:hover {
+  opacity: 0.8;
+}
